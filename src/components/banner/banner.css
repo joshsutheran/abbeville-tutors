@@ -1,0 +1,74 @@
+.banner {
+    width: 100%;
+    padding: 15vh 0vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner__speech {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 8vh;
+}
+
+.banner__review {
+    font-size: 1.4vw;
+    font-weight: 400;
+    width: 80%;
+}
+
+.banner__name {
+	font-size: 1vw;
+	font-weight: 200;
+	margin-top: 4vh;
+}
+
+.bounce {
+	-webkit-animation: bounce 2s;
+	        animation: bounce 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}
+
+@keyframes bounce {
+	0%,
+	25%,
+	50%,
+	75%,
+	100% {
+		-webkit-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+	60% {
+		-webkit-transform: translateY(-12px);
+		        transform: translateY(-12px);
+	}
+}

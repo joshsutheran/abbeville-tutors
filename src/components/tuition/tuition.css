@@ -1,0 +1,93 @@
+.tuition {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tuition__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tuition__title {
+    font-size: 3vw;
+    color: rgb(249, 180, 33);
+    font-weight: 600;
+}
+
+.tuition__subheading {
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.tuition__grid {
+    position: relative;
+    margin: 10vh 4vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.grid__one, .grid__two, .grid__three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.grid__image {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-bottom: 6vh;
+}
+
+.grid__title {
+    font-size: 2vw;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.grid__text {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    width: 80%;
+}
+
+.grid__line {
+    border-right: solid 1px rgb(172, 172, 172);
+}
+
+.tuition__location {
+    position: relative;
+    display: flex;
+    gap: 6vw;
+    margin: 0vh 10vw;
+    margin-top: 30vh;
+    z-index: 2;
+    margin-bottom: -100px;
+}
+
+.tuition__location img {
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.tuition__location-text {
+    width: 60%;
+}
+
+.tuition__background {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}

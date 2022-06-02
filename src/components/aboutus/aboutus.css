@@ -1,0 +1,79 @@
+.aboutus {
+    padding: 20vh 10vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.teachers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+    border-bottom: solid 1px rgb(172, 172, 172);
+}
+
+.primaryfocus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    border-bottom: solid 1px rgb(172, 172, 172);
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    border-bottom: solid 1px rgb(172, 172, 172);
+}
+
+.aboutus__info {
+    width: 60%;
+}
+
+.aboutus__info-title {
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(34, 122, 229);
+    margin-bottom: 2vh;
+}
+
+.aboutus__info-subheading {
+    font-size: 2vw;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    margin-bottom: 4vh;
+}
+
+.aboutus__info-text {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    margin-bottom: 1vh;
+}
+
+.aboutus__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.aboutus__image-teacher {
+    width: 400px;
+    height: auto;
+}
+
+.aboutus__image-pupils {
+    width: 400px;
+    height: auto;
+    padding: 2vw;
+}
+
+.aboutus__image-service {
+    width: 300px;
+    height: auto;
+}
