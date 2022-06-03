@@ -30,6 +30,19 @@ const Background = () => {
           <path class="a3" d="M0 40 L30 72 L60 40"></path>
         </svg>
       </div>
+      <div className="background__colour"></div>
+      <div className="background__icon-right">
+        <img src={require('../../images/books.png')} alt="Books" />
+      </div>
+      <div className="background__icon-left">
+        <img src={require('../../images/stationery.png')} alt="Pencil Pot" />
+      </div>
+      <div>
+        <img className="background__images__front1" src={require('../../images/blobleftsmall.png')} />
+        <img className="background__images__back1" src={require('../../images/blobleftbig.png')} />
+        <img className="background__images__front2" src={require('../../images/blobrightsmall.png')} />
+        <img className="background__images__back2"  src={require('../../images/blobrightbig.png')} />
+      </div>
     </div>
   );
 };

@@ -3,11 +3,11 @@
     top: 0;
     height: 12vh;
     width: 100%;
-    z-index: 5;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #79978E;
+    background:  #1d6ece;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -15,7 +15,7 @@
     font-family: 'Martel', sans-serif;
     font-size: 2vw;
     font-weight: 800;
-    color: #EEECE8;
+    color: whitesmoke;
     margin-left: 10vw;
 }
 
@@ -60,7 +60,7 @@
     border-width: 2px;
     box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
     box-sizing: border-box;
-    color: #76736D;
+    color: rgb(82, 82, 82);
     cursor: pointer;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
